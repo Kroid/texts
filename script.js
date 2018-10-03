@@ -10,13 +10,13 @@ var editor = new Quill('#editor', {
   theme: 'snow'
 });
 
-$('#text').flowtype({
-   // minimum : 500,
-   // maximum : 1000,
-   // fontRatio : 30,
-   minFont   : 16,
-   maxFont   : 20,
-});
+// $('#text').flowtype({
+//    // minimum : 500,
+//    // maximum : 1000,
+//    // fontRatio : 30,
+//    minFont   : 16,
+//    maxFont   : 20,
+// });
 
 $( "#editor-form" ).submit(function( event ) {
   var text = parseEditorText();
