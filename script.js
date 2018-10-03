@@ -35,7 +35,7 @@ $(document).on('click tap touchstart', '.word', function(e){
   $(this).css('color', 'red');
   $(this).css('cursor', 'pointer');
 
-  let link = `https://www.lingvolive.com/ru-ru/translate/en-ru/${word}`;
+  let link = `https://wooordhunt.ru/word/${word}`;
   window.open(link,'_blank');
 });
 
