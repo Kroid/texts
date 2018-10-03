@@ -10,6 +10,12 @@ var editor = new Quill('#editor', {
   theme: 'snow'
 });
 
+$('#text').flowtype({
+   minimum : 500,
+   maximum : 1000,
+   fontRatio : 30,
+});
+
 $( "#editor-form" ).submit(function( event ) {
   var text = parseEditorText();
   $('#text').html(text);
