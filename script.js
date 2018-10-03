@@ -27,7 +27,7 @@ $(document).on('mouseleave', '.word', function(e) {
   $(this).css('cursor', 'auto');
 })
 
-$(document).on('click touch', '.word', function(e){
+$(document).on('click tap', '.word', function(e){
   var word = $(this).text().trim();
   word = parseWord(word);
   if (!word.length) return;
