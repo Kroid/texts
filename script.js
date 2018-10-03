@@ -26,12 +26,12 @@ $( "#editor-form" ).submit(function( event ) {
 });
 
 $(document).on('mouseover', '.word', function(e) {
-  $(this).css('color', 'red');
+  // $(this).css('color', 'red');
   $(this).css('cursor', 'pointer');
 })
 
 $(document).on('mouseleave', '.word', function(e) {
-  $(this).css('color', 'black');
+  // $(this).css('color', 'black');
   $(this).css('cursor', 'auto');
 })
 
